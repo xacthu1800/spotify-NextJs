@@ -23,7 +23,9 @@ const onClick = () => {
 }
 
   return (
-    <button className='
+    <button
+        onClick={onClick} 
+        className='
             relative
             group
             flex
