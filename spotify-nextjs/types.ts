@@ -32,7 +32,7 @@ export interface Price{
     interval_count?: number;
     trial_period_days?: number | null;
     metadata?: Stripe.Metadata;
-    products?: Products;
+    products?: Product;
 
 }
 
