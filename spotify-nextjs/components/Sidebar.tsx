@@ -35,7 +35,7 @@ const routes = useMemo(()=>[
     }
 ],[]);
     return (
-        <div className="h-screen flex ">
+        <div className="h-full flex ">
             <div className="
                     hidden
                     md:flex
