@@ -1386,6 +1386,11 @@
   dependencies:
     csstype "^3.0.2"
 
+"@types/uniqid@^5.3.4":
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/@types/uniqid/-/uniqid-5.3.4.tgz#e5deca439a1db381e4692f7679ecf3d7f1264eb2"
+  integrity sha512-AgC+o3/8/QEHuU3w5w2jZ8auQtjSJ/s8G8RfEk9CYLogK1RGXqxhHH0wOEAu8uHXjvj8oh/dRtfgok4IHKxh/Q==
+
 "@types/ws@^8.18.1":
   version "8.18.1"
   resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.18.1.tgz#48464e4bf2ddfd17db13d845467f6070ffea4aa9"
@@ -3448,6 +3453,11 @@ react-dom@^19.0.0:
   dependencies:
     scheduler "^0.26.0"
 
+react-hook-form@^7.58.1:
+  version "7.58.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.58.1.tgz#b755acc1b42a19e4253c878b766e4c5ebd070fe8"
+  integrity sha512-Lml/KZYEEFfPhUVgE0RdCVpnC4yhW+PndRhbiTtdvSlQTL8IfVR+iQkBjLIvmmc6+GGoVeM11z37ktKFPAb0FA==
+
 react-hot-toast@^2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/react-hot-toast/-/react-hot-toast-2.5.2.tgz#b55328966a26add56513e2dc1682e2cb4753c244"
@@ -4037,6 +4047,11 @@ undici-types@~7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.8.0.tgz#de00b85b710c54122e44fbfd911f8d70174cd294"
   integrity sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==
+
+uniqid@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.4.0.tgz#4e17bfcab66dfe33563411ae0c801f46ef964e66"
+  integrity sha512-38JRbJ4Fj94VmnC7G/J/5n5SC7Ab46OM5iNtSstB/ko3l1b5g7ALt4qzHFgGciFkyiRNtDXtLNb+VsxtMSE77A==
 
 unrs-resolver@^1.6.2:
   version "1.9.1"
