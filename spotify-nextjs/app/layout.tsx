@@ -33,6 +33,7 @@ export default async function RootLayout({
   return (
     <html 
       lang="en"
+      // @ts-ignore
       webcrx=""
       >
       <body
