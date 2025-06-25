@@ -18,7 +18,7 @@ export default async function Home() {
       overflow-hidden
       overflow-y-auto
     ">
-      <Header>
+      <Header className={""}>
         <div className="mb-2">
           <h1 
             className="
