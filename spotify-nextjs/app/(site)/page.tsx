@@ -18,11 +18,11 @@ export default async function Home() {
       overflow-hidden
       overflow-y-auto
     ">
-      <Header className={""}>
+      <Header className="from-emerald-800">
         <div className="mb-2">
           <h1 
             className="
-              text-ehite
+              text-white
               text-3xl
               font-semibold
             ">
@@ -32,7 +32,7 @@ export default async function Home() {
               grid
               grid-cols-1
               sm:grid-cols-2
-              xl:grid-cols=3
+              xl:grid-cols-3
               2xl:grid-cols-4
               gap-3
               mt-4
