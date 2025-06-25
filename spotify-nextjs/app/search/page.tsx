@@ -3,15 +3,16 @@ import Header from "@/components/Header";
 import SearchContent from "@/components/SearchContent";
 import SearchInput from "@/components/SearchInput";
 
-interface SearchProps{
-    searchParams: {
+interface SearchProps {
+    searchParams: Promise<{
         title: string;
-    }
+    }>;
 }
 
 const Search = async ({ searchParams }: SearchProps) => {
-    
-    const songs = await getSongsByTitle(searchParams.title);
+    // Await the searchParams Promise
+    const params = await searchParams;
+    const songs = await getSongsByTitle(params.title);
 
     return (
         <div 
@@ -34,8 +35,7 @@ const Search = async ({ searchParams }: SearchProps) => {
             </Header>
             <SearchContent songs={songs}/>
         </div>
-    )
+    );
+};
 
-}
-
-export default Search
+export default Search;
