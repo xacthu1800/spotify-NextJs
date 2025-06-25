@@ -4,7 +4,6 @@ import useLoadImage from '@/hooks/useLoadImage';
 import { Song } from '@/types';
 import Image from 'next/image';
 import React from 'react'
-import { CgPlayButton } from 'react-icons/cg';
 import PlayButton from './PlayButton';
 
 interface SongItemProps {

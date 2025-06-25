@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import MediaItem from './MediaItem';
 import LikeButton from './LikeButton';
 import {  BsPauseFill, BsPlayFill } from 'react-icons/bs';
-import { AiFillBackward, AiFillStepBackward, AiFillStepForward } from 'react-icons/ai';
+import {  AiFillStepBackward, AiFillStepForward } from 'react-icons/ai';
 import { HiSpeakerWave, HiSpeakerXMark } from 'react-icons/hi2';
 import Slider from './Slider';
 import usePlayer from '@/hooks/usePlayer';
