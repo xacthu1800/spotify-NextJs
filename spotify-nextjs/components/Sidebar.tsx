@@ -10,6 +10,7 @@ import Box from "./Box";
 import SidebarItem from "./SidebarItem";
 import Library from "./Library";
 import { Song } from "@/types";
+import usePlayer from "@/hooks/usePlayer";
 
 interface SidebarProps {
     children: React.ReactNode
@@ -22,7 +23,6 @@ const Sidebar: React.FC<SidebarProps> = ({
 })  => {
 
 const pathname = usePathname();
-
 const routes = useMemo(()=>[
     {
         icon: HiHome ,
